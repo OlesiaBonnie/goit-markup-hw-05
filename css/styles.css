@@ -421,6 +421,150 @@ p {
     letter-spacing: 0.02em;
     color: var(--navi-blue-color);
 }
+
+.form-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.fields {
+    margin-bottom: 8px;
+}
+
+.field-lable {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--light-slate-color);
+    display: block;
+    margin-bottom: 4px;
+}
+
+.field-input {
+    position: relative;
+}
+
+.username {
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--navi-blue-modal-color);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color var(--transition);
+}
+
+.username:focus {
+    border-color: var(--iris-color);
+}
+
+.icon-lable {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill var(--transition);
+    fill: var(--navi-blue-color);
+}
+
+.username:focus+.icon-lable {
+    fill: var(--iris-color);
+}
+
+.comments {
+    margin-bottom: 16px;
+}
+
+.comment {
+    width: 100%;
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--navi-blue-modal-color);
+    border: 1px solid var(--navi-blue-modal-color);
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
+    resize: none;
+    transition: border-color var(--transition);
+}
+
+.comment:focus {
+    border-color: var(--iris-color);
+}
+
+.privacy {
+    margin-bottom: 24px;
+}
+
+.privacy-lable {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--light-slate-color);
+}
+
+.checkbox {
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--navi-blue-modal-color);
+    border-radius: 2px;
+    transition: background-color var(--transition), border var(--transition),
+        fill var(--transition);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+    margin-right: 8px;
+}
+
+.policy:checked+.privacy-lable .checkbox {
+    border: none;
+    background-color: var(--ocean-color);
+    fill: var(--cloud-color);
+}
+
+.privacy-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+    color: var(--iris-color);
+}
+
+.button-send {
+    min-width: 169px;
+    height: 56px;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    cursor: pointer;
+    background: var(--iris-color);
+    border: none;
+    border-radius: 4px;
+    transition: background-color var(--transition);
+    margin: 0 auto;
+}
+
+.button-send:hover,
+.button-send:focus {
+    background: var(--ocean-color);
+}
+
 /*index.html*/
 .title-section {
     background-image: linear-gradient(to bottom,
