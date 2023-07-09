@@ -388,39 +388,6 @@ p {
     fill: var(--white-color);
 }
 
-.modal-title {
-    padding: 72px 24px 0;
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    letter-spacing: 0.02em;
-}
-
-.send-form {
-    padding: 0;
-    margin: 0;
-    padding-left: 24px;
-    padding-right: 24px;
-}
-
-.form-item {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-
-.modal-form p {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--navi-blue-color);
-}
 
 .form-text {
     margin-bottom: 16px;
