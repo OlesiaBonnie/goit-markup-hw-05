@@ -242,6 +242,10 @@ p {
     background-color: var(--green-color);
 }
 
+.footer-subscribe {
+    margin-left: auto;
+}
+
 .footer-subscribe-text {
     font-style: normal;
     color: var(--white-color);
